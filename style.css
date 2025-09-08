@@ -54,7 +54,11 @@ h2 {
     margin-bottom: 20px;
     font-size: 24px;
 }
-
+h2:hover{
+transform:scale(1.1);
+    transition:1s linear;
+    text-shadow:2px 2px gold;
+}
 /* Про нас */
 .about {
   width: 60%;
